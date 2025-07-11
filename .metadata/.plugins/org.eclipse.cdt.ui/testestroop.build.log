@@ -1,0 +1,27 @@
+09:21:53 **** Incremental Build of configuration Debug for project testestroop ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:126:11: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+     n1 = (rand()%4);
+           ^~~~
+../Core/Src/main.c:161:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(contador_pontos, contador_string, 10);
+     ^~~~
+arm-none-eabi-gcc -o "testestroop.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\testestroop\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="testestroop.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: testestroop.elf
+ 
+arm-none-eabi-objdump -h -S  testestroop.elf  > "testestroop.list"
+arm-none-eabi-objcopy  -O binary  testestroop.elf  "testestroop.bin"
+arm-none-eabi-size   testestroop.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12260	    180	   1772	  14212	   3784	testestroop.elf
+Finished building: default.size.stdout
+ 
+Finished building: testestroop.bin
+ 
+Finished building: testestroop.list
+ 
+
+09:21:54 Build Finished. 0 errors, 2 warnings. (took 1s.406ms)
+

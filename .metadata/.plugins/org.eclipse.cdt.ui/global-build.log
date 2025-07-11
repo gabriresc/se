@@ -1,0 +1,497 @@
+15:27:13 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:27: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+    posicaodoalvo = 168 + (srand()%49);
+                           ^~~~~
+arm-none-eabi-gcc -o "Aviao.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\Aviao\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aviao.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aviao.elf
+ 
+arm-none-eabi-objdump -h -S  Aviao.elf  > "Aviao.list"
+arm-none-eabi-objcopy  -O binary  Aviao.elf  "Aviao.bin"
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11884	    136	   1688	  13708	   358c	Aviao.elf
+Finished building: default.size.stdout
+ 
+Finished building: Aviao.bin
+ 
+Finished building: Aviao.list
+ 
+15:27:22 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11884	    136	   1688	  13708	   358c	Aviao.elf
+Finished building: default.size.stdout
+ 
+15:29:20 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:27: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+    posicaodoalvo = 168 + (srand()%49);
+                           ^~~~~
+arm-none-eabi-gcc -o "Aviao.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\Aviao\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aviao.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aviao.elf
+ 
+arm-none-eabi-objdump -h -S  Aviao.elf  > "Aviao.list"
+arm-none-eabi-objcopy  -O binary  Aviao.elf  "Aviao.bin"
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11884	    136	   1688	  13708	   358c	Aviao.elf
+Finished building: default.size.stdout
+ 
+Finished building: Aviao.bin
+ 
+Finished building: Aviao.list
+ 
+15:30:05 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:27: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+    posicaodoalvo = 168 + (srand()%49);
+                           ^~~~~
+arm-none-eabi-gcc -o "Aviao.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\Aviao\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aviao.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aviao.elf
+ 
+arm-none-eabi-objdump -h -S  Aviao.elf  > "Aviao.list"
+arm-none-eabi-objcopy  -O binary  Aviao.elf  "Aviao.bin"
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11884	    136	   1688	  13708	   358c	Aviao.elf
+Finished building: default.size.stdout
+ 
+Finished building: Aviao.bin
+ 
+Finished building: Aviao.list
+ 
+15:32:44 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:27: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+    posicaodoalvo = 168 + (srand()%49);
+                           ^~~~~
+arm-none-eabi-gcc -o "Aviao.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\Aviao\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aviao.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aviao.elf
+ 
+arm-none-eabi-objdump -h -S  Aviao.elf  > "Aviao.list"
+arm-none-eabi-objcopy  -O binary  Aviao.elf  "Aviao.bin"
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11884	    136	   1688	  13708	   358c	Aviao.elf
+Finished building: default.size.stdout
+ 
+Finished building: Aviao.bin
+Finished building: Aviao.list
+ 
+ 
+15:33:14 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:27: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+    posicaodoalvo = 168 + (srand()%49);
+                           ^~~~~
+arm-none-eabi-gcc -o "Aviao.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\Aviao\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aviao.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aviao.elf
+ 
+arm-none-eabi-objdump -h -S  Aviao.elf  > "Aviao.list"
+arm-none-eabi-objcopy  -O binary  Aviao.elf  "Aviao.bin"
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11884	    136	   1688	  13708	   358c	Aviao.elf
+Finished building: default.size.stdout
+ 
+Finished building: Aviao.bin
+Finished building: Aviao.list
+ 
+ 
+15:34:14 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:27: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+    posicaodoalvo = 168 + (srand()%49);
+                           ^~~~~
+arm-none-eabi-gcc -o "Aviao.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\Aviao\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aviao.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aviao.elf
+ 
+arm-none-eabi-objdump -h -S  Aviao.elf  > "Aviao.list"
+arm-none-eabi-objcopy  -O binary  Aviao.elf  "Aviao.bin"
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11884	    136	   1688	  13708	   358c	Aviao.elf
+Finished building: default.size.stdout
+ 
+Finished building: Aviao.bin
+Finished building: Aviao.list
+ 
+ 
+15:34:38 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11884	    136	   1688	  13708	   358c	Aviao.elf
+Finished building: default.size.stdout
+ 
+15:35:00 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:27: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+    posicaodoalvo = 168 + (srand()%49);
+                           ^~~~~
+arm-none-eabi-gcc -o "Aviao.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\Aviao\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aviao.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aviao.elf
+ 
+arm-none-eabi-objdump -h -S  Aviao.elf  > "Aviao.list"
+arm-none-eabi-objcopy  -O binary  Aviao.elf  "Aviao.bin"
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+Finished building: Aviao.bin
+ 
+Finished building: Aviao.list
+ 
+15:35:25 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:27: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+    posicaodoalvo = 168 + (srand()%49);
+                           ^~~~~
+arm-none-eabi-gcc -o "Aviao.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\Aviao\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aviao.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aviao.elf
+ 
+arm-none-eabi-objdump -h -S  Aviao.elf  > "Aviao.list"
+arm-none-eabi-objcopy  -O binary  Aviao.elf  "Aviao.bin"
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+Finished building: Aviao.bin
+ 
+Finished building: Aviao.list
+ 
+15:36:13 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:27: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+    posicaodoalvo = 168 + (srand()%49);
+                           ^~~~~
+arm-none-eabi-gcc -o "Aviao.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\Aviao\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aviao.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aviao.elf
+ 
+arm-none-eabi-objdump -h -S  Aviao.elf  > "Aviao.list"
+arm-none-eabi-objcopy  -O binary  Aviao.elf  "Aviao.bin"
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+Finished building: Aviao.bin
+Finished building: Aviao.list
+ 
+ 
+15:36:41 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:27: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+    posicaodoalvo = 168 + (srand()%49);
+                           ^~~~~
+arm-none-eabi-gcc -o "Aviao.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\Aviao\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aviao.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aviao.elf
+ 
+arm-none-eabi-objdump -h -S  Aviao.elf  > "Aviao.list"
+arm-none-eabi-objcopy  -O binary  Aviao.elf  "Aviao.bin"
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+Finished building: Aviao.bin
+Finished building: Aviao.list
+ 
+ 
+ 
+15:37:07 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:27: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+    posicaodoalvo = 168 + (srand()%49);
+                           ^~~~~
+arm-none-eabi-gcc -o "Aviao.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\Aviao\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aviao.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aviao.elf
+ 
+arm-none-eabi-objdump -h -S  Aviao.elf  > "Aviao.list"
+arm-none-eabi-objcopy  -O binary  Aviao.elf  "Aviao.bin"
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+Finished building: Aviao.bin
+ 
+Finished building: Aviao.list
+ 
+15:37:22 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:27: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+    posicaodoalvo = 168 + (srand()%49);
+                           ^~~~~
+arm-none-eabi-gcc -o "Aviao.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\Aviao\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aviao.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aviao.elf
+ 
+arm-none-eabi-objdump -h -S  Aviao.elf  > "Aviao.list"
+arm-none-eabi-objcopy  -O binary  Aviao.elf  "Aviao.bin"
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+Finished building: Aviao.list
+Finished building: Aviao.bin
+ 
+ 
+15:37:40 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:27: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+    posicaodoalvo = 168 + (srand()%49);
+                           ^~~~~
+arm-none-eabi-gcc -o "Aviao.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\Aviao\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aviao.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aviao.elf
+ 
+arm-none-eabi-objdump -h -S  Aviao.elf  > "Aviao.list"
+arm-none-eabi-objcopy  -O binary  Aviao.elf  "Aviao.bin"
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+Finished building: Aviao.bin
+ 
+Finished building: Aviao.list
+ 
+15:39:04 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:27: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+    posicaodoalvo = 168 + (srand()%49);
+                           ^~~~~
+arm-none-eabi-gcc -o "Aviao.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\Aviao\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aviao.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aviao.elf
+ 
+arm-none-eabi-objdump -h -S  Aviao.elf  > "Aviao.list"
+arm-none-eabi-objcopy  -O binary  Aviao.elf  "Aviao.bin"
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+Finished building: Aviao.bin
+ 
+Finished building: Aviao.list
+ 
+15:45:58 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:27: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+    posicaodoalvo = 168 + (srand()%49);
+                           ^~~~~
+arm-none-eabi-gcc -o "Aviao.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\Aviao\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aviao.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aviao.elf
+ 
+arm-none-eabi-objdump -h -S  Aviao.elf  > "Aviao.list"
+arm-none-eabi-objcopy  -O binary  Aviao.elf  "Aviao.bin"
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+Finished building: Aviao.bin
+Finished building: Aviao.list
+ 
+ 
+15:46:20 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:27: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+    posicaodoalvo = 168 + (srand()%49);
+                           ^~~~~
+arm-none-eabi-gcc -o "Aviao.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\Aviao\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aviao.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aviao.elf
+ 
+arm-none-eabi-objdump -h -S  Aviao.elf  > "Aviao.list"
+arm-none-eabi-objcopy  -O binary  Aviao.elf  "Aviao.bin"
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+Finished building: Aviao.bin
+ 
+Finished building: Aviao.list
+ 
+15:46:40 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:27: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+    posicaodoalvo = 168 + (srand()%49);
+                           ^~~~~
+arm-none-eabi-gcc -o "Aviao.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\Aviao\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aviao.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aviao.elf
+ 
+arm-none-eabi-objdump -h -S  Aviao.elf  > "Aviao.list"
+arm-none-eabi-objcopy  -O binary  Aviao.elf  "Aviao.bin"
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+Finished building: Aviao.bin
+ 
+Finished building: Aviao.list
+ 
+14:35:07 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:111:27: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+    posicaodoalvo = 168 + (srand()%49);
+                           ^~~~~
+arm-none-eabi-gcc -o "Aviao.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Alunos\STM32CubeIDE\workspace_1.5.1_2025\Aviao\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aviao.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aviao.elf
+ 
+arm-none-eabi-objdump -h -S  Aviao.elf  > "Aviao.list"
+arm-none-eabi-objcopy  -O binary  Aviao.elf  "Aviao.bin"
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+Finished building: Aviao.bin
+ 
+Finished building: Aviao.list
+ 
+14:35:12 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+14:35:33 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+14:35:49 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+14:36:10 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+14:37:29 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+14:37:54 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+14:38:34 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+14:39:20 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+14:39:48 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+14:40:30 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+14:40:45 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+14:41:27 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+14:42:22 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+14:44:46 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 
+14:52:11 **** Incremental Build of configuration Debug for project Aviao ****
+make -j4 all 
+arm-none-eabi-size   Aviao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11892	    136	   1688	  13716	   3594	Aviao.elf
+Finished building: default.size.stdout
+ 

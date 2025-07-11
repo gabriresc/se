@@ -1,0 +1,10 @@
+09:21:50 **** Build of configuration Debug for project aula04 ****
+make -j4 all 
+arm-none-eabi-size   aula04.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4892	     20	   1572	   6484	   1954	aula04.elf
+Finished building: default.size.stdout
+ 
+
+09:21:50 Build Finished. 0 errors, 0 warnings. (took 296ms)
+

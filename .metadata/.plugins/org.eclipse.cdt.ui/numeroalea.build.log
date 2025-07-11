@@ -1,0 +1,10 @@
+09:21:51 **** Build of configuration Debug for project numeroalea ****
+make -j4 all 
+arm-none-eabi-size   numeroalea.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5232	    120	   1616	   6968	   1b38	numeroalea.elf
+Finished building: default.size.stdout
+ 
+
+09:21:52 Build Finished. 0 errors, 0 warnings. (took 219ms)
+

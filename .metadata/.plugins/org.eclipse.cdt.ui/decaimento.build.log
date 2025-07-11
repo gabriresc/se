@@ -1,0 +1,10 @@
+14:58:20 **** Incremental Build of configuration Debug for project decaimento ****
+make -j4 all 
+arm-none-eabi-size   decaimento.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7500	    144	   1568	   9212	   23fc	decaimento.elf
+Finished building: default.size.stdout
+ 
+
+14:58:21 Build Finished. 0 errors, 0 warnings. (took 297ms)
+

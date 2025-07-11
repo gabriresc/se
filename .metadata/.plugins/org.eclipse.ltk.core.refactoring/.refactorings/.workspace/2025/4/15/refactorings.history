@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;desafiolimitedeimagem&apos; to &apos;gif&apos;" description="Rename resource &apos;desafiolimitedeimagem&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/desafiolimitedeimagem" name="gif" stamp="1744055150658" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;gif&apos; to &apos;desafiolimitedeimagem&apos;" description="Rename resource &apos;gif&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/gif" name="desafiolimitedeimagem" stamp="1744305674527" updateReferences="true"/>
+</session>
